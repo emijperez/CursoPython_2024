@@ -21,3 +21,6 @@ def division(dividendo, divisor):
 print(f"El resultado de la suma es = {suma(numero_2=25, numero_3=25, numero_1=10)}")
 
 print(f"El resultado de la resta es = {resta(numero_2=500, numero_1=260)}")
+
+print(f"El resultado de la resta es = {multiplicacion(numero_2=20, numero_1=8)}")
+

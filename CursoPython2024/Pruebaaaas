@@ -1,0 +1,17 @@
+def verificar_intervalo(numero):
+    if 0 <= numero <= 25:
+        return "[0,25]"
+    elif 25 < numero <= 50:
+        return "(25,50]"
+    elif 50 < numero <= 75:
+        return "(50,75]"
+    elif 75 < numero <= 100:
+        return "(75,100]"
+    else:
+        return "Fora de intervalo"  # Fuera de intervalo
+
+# Leer el número de punto flotante
+numero = float(input("Ingrese un número de punto flotante: "))
+
+# Verificar el intervalo y mostrar el mensaje correspondiente
+print(verificar_intervalo(numero))
